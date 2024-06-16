@@ -93,7 +93,9 @@ export default function CreateUser({
       <Modal
         title={type === "create" ? "Create" : "Edit" + " User"}
         visible={isOpenModal}
-        onClose={() => setIsOpenModal(false)}
+        onClose={() => {
+          reset();
+        }}
       >
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="space-y-2 flex flex-col">

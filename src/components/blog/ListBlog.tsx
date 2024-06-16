@@ -45,7 +45,7 @@ export default function ListBlog() {
           <div className="form-control flex-1">
             <input
               type="text"
-              placeholder="Search by name or email"
+              placeholder="Search by title or body"
               className="input input-bordered w-full"
               onChange={handleSearchChange}
               value={search}

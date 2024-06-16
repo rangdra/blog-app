@@ -21,6 +21,10 @@ export default function BlogDetail({ post }: { post: IPost }) {
       toast.error("Please create user first!");
       return;
     }
+    if (!comment) {
+      toast.error("Comment can't empty.");
+      return;
+    }
     setIsLoading(true);
     try {
       const resCreate = await apiFetch<IComment>({
