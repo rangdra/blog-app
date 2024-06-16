@@ -1,8 +1,8 @@
 "use client";
 import CreateUser from "./CreateUser";
-import { IUser, PaginationRes } from "@/types";
+import { IUser } from "@/types";
 import UserItem from "./UserItem";
-import { useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 import Modal from "../Modal";
 import { FaRegTrashAlt } from "react-icons/fa";
 import toast from "react-hot-toast";

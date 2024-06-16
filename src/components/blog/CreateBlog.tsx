@@ -1,6 +1,6 @@
 "use client";
 
-import React, { ChangeEvent, FormEvent, useEffect, useState } from "react";
+import React, { ChangeEvent, FormEvent, useState } from "react";
 import Modal from "../Modal";
 import { CreateRequestBlog, IComment, IPost } from "@/types";
 import { ENDPOINT_URL } from "@/config";

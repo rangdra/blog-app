@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import BlogItem from "./BlogItem";
 import { IPost } from "@/types";
 import { DEFAULT_LIMIT } from "@/config";

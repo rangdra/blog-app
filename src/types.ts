@@ -25,10 +25,3 @@ export interface IComment {
 
 export type CreateRequestUser = Omit<IUser, "id">;
 export type CreateRequestBlog = Pick<IPost, "title" | "body">;
-
-export interface PaginationRes {
-  count: number;
-  prev: string | null;
-  next: string | null;
-  length: number;
-}

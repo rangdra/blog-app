@@ -1,12 +1,9 @@
-import Empty from "@/components/Empty";
 import BlogDetail from "@/components/blog/BlogDetail";
-import CommentItem from "@/components/blog/CommentItem";
 import { ENDPOINT_URL } from "@/config";
 import { apiFetch } from "@/helpers/api";
 import { IComment, IPost, IUser } from "@/types";
 import { Metadata } from "next";
 import React from "react";
-import { FaRegComment } from "react-icons/fa6";
 
 interface IProps {
   params: {

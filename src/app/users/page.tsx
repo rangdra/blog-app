@@ -1,8 +1,6 @@
 import ListUser from "@/components/user/ListUser";
-import { DEFAULT_LIMIT, ENDPOINT_URL } from "@/config";
+import { ENDPOINT_URL } from "@/config";
 import { apiFetch } from "@/helpers/api";
-import { generateQueryString } from "@/helpers/generateQueryString";
-import { generateResultPagination } from "@/helpers/paginaton";
 import AppInitializer from "@/lib/AppInitializer";
 import { IUser } from "@/types";
 import { Metadata } from "next";
