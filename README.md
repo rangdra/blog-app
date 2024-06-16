@@ -1,8 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Prepare
 
-First, run the development server:
+1. Get GOREST access token (Get here -> https://gorest.co.in/my-account/access-tokens)
+
+## Step By Step, How to Install & Start
+
+1. Clone this repo
+2. Run command npm/yarn/pnpm/bun install
+3. Copy file `.env.example` to `.env.local`. Then fill the value.
+4. Run the development server:
 
 ```bash
 npm run dev
